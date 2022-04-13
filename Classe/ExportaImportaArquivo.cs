@@ -1,6 +1,6 @@
-﻿using INSS.Infraestrutura;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using INSS.Infraestrutura;
 
 namespace INSS.Classe
 {
@@ -11,13 +11,13 @@ namespace INSS.Classe
         {
             try
             {
-                //Criar Dados mockados para teste!!!
+                //Criar somente Dados para teste!!!
 
                List<TabelaInss> _tabela = new List<TabelaInss>();
 
                 _tabela.Add(new TabelaInss(2011, 8.00m, 0m, 1106.90m,0m));
                 _tabela.Add(new TabelaInss(2011, 9.00m, 1106.91m, 1844.83m,0m));
-                _tabela.Add(new TabelaInss(2011, 11.00m, 1844.83m, 3689.66m,0m));
+                _tabela.Add(new TabelaInss(2011, 11.00m, 1844.84m, 3689.66m,0m));
                 _tabela.Add(new TabelaInss(2011, 0m, 3689.67m, decimal.MaxValue, 405.86m));
                 _tabela.Add(new TabelaInss(2012, 7.00m, 0m, 1000.00m, 0m));
                 _tabela.Add(new TabelaInss(2012, 8.00m, 1000.01m, 1500.00m, 0m));
