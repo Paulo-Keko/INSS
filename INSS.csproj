@@ -57,8 +57,5 @@
     <Compile Include="Validacao\Regras\ValidacaoGeral.cs" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <Content Include="Repositorio\Arquivo\TabelaInss.txt" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
